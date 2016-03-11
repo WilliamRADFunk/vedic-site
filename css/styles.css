@@ -1,47 +1,125 @@
-::-webkit-input-placeholder { /* Safari, Chrome and Opera */
-    color: #000000;
-    text-align: center;
-}
-:-moz-placeholder { /* Firefox 18- */
-    color: #000000;
-    text-align: center;
-}
-::-moz-placeholder { /* Firefox 19+ */
-    color: #000000;
-    text-align: center;
-}
-:-ms-input-placeholder { /* IE 10+ */
-    color: #000000;
-    text-align: center;
-}
-::-ms-input-placeholder { /* Edge */
-    color: #000000;
-    text-align: center;
-}
-:placeholder-shown { /* Standard one last! */
-    color: #000000;
-    text-align: center;
-}
-[placeholder]:focus::-webkit-input-placeholder { /* Safari, Chrome and Opera */
-    color: transparent;
-}
-[placeholder]:focus:-moz-placeholder { /* Firefox 18- */
-    color: transparent;
-}
-[placeholder]:focus::-moz-placeholder { /* Firefox 19+ */
-    color: transparent;
-}
-[placeholder]:focus:-ms-input-placeholder { /* IE 10+ */
-    color: transparent;
-}
-[placeholder]:focus::-ms-input-placeholder { /* Edge */
-    color: transparent;
-}
 body
 {
-    background-color: #c6c6c6;
+    background-color: #FFFFFF;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
     padding: 0px;
+}
+header
+{
+	background-color: #CB0D0D;
+	display: block;
+	float: left;
+	height: 80px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+header ul
+{
+	display: block;
+	list-style: none;
+	margin: 0px auto;
+	width: 535px;
+}
+header li
+{
+	display: inline-block;
+	text-align: left;
+}
+header ul > li > a
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 13px;
+	font-family: 'Open Sans Bold', sans-serif;
+	height: 100%;
+	padding-left: 20px;
+	padding-top: 40px;
+	text-decoration: none;
+}
+header ul > li > a:hover
+{
+	color: #2C2727;
+}
+#logo-vedic
+{
+	background-image: url("../assets/logo-vedic-small.png");
+	background-repeat: no-repeat;
+	background-size: 115px 80px;
+	display: block;
+	float: left;
+	height: 80px;
+	margin-left: 30px;
+	width: 15%;
+}
+#ext-links
+{
+	float: right;
+	height: 100%;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	width: 15%;
+}
+#ext-links .ext-link
+{
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+}
+#ext-links a
+{
+	background-image: url("../assets/ext-links-arrow.png");
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: right;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	padding: 2px 20px 0px 0px;
+	text-decoration: none;
+}
+#ext-links a:hover
+{
+	color: #2C2727;
+}
+#intro
+{
+	display: block;
+	font-size: 24px;
+	text-align: center;
+}
+#intro-logo
+{
+	background-image: url("../assets/logo-vedic-large.png");
+	background-repeat: no-repeat;
+	height: 65px;
+	margin: 165px auto 30px auto;
+	width: 324px;
+}
+#btn-download
+{
+	background-color: #2C2727;
+	border: 0px solid #000000;
+	border-radius: 60px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 22px;
+	height: 83px;
+	margin: 20px auto 70px auto;
+	padding-top: 40px;
+	width: 123px;
+}
+#btn-download:hover
+{
+	background-color: #CB0D0D;
+	color: #2C2727;
+}
+#btn-download:active
+{
+	background-color: #CB0D0D;
+	color: #FFFFFF;
 }
