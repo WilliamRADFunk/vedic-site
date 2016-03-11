@@ -43,6 +43,44 @@ header ul > li > a:hover
 {
 	color: #2C2727;
 }
+footer
+{
+	background-color: #F1F1F1;
+	color: #2C2727;
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: center;
+}
+footer ul
+{
+	display: block;
+	list-style: none;
+	margin: 30px auto 0px auto;
+	padding: 120px 0px 20px 0px;
+	width: 80%;
+}
+footer > ul > li
+{
+	display: inline-block;
+	margin-right: 40px;
+}
+footer > ul > li > a
+{
+	color: #CB0D0D;
+	font-family: 'Open Sans Semibold', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+}
+footer > ul > li > a:hover
+{
+	color: #2C2727;
+}
+footer p
+{
+	padding-bottom: 100px;
+}
 #logo-vedic
 {
 	background-image: url("../assets/logo-vedic-small.png");
@@ -126,7 +164,6 @@ header ul > li > a:hover
 #feature
 {
 	left: 0px;
-	margin-bottom: 30px;
 	position: relative;
 }
 #feature img
@@ -208,11 +245,16 @@ header ul > li > a:hover
 	top: 0px;
 	width: 5%;
 }
+.tooltip-close img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 #developers
 {
 	display: block;
 	height: auto;
-	margin-top: 60px;
 	position: relative;
 	width: 100%
 }
@@ -220,7 +262,7 @@ header ul > li > a:hover
 {
 	display: block;
 	height: auto;
-	margin: 60px 0px 120px 0px;
+	margin: 120px 0px 60px 0px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -236,8 +278,9 @@ header ul > li > a:hover
 	height: 40px;
 	padding: 20px 0px 0px 30px;
 	position: relative;
-	top: -30px;
+	top: 30px;
 	width: 230px;
+	z-index: 100;
 }
 .developer
 {
@@ -295,8 +338,70 @@ header ul > li > a:hover
 }
 #tools
 {
-	display: block;
+	margin-top: 0px;
+}
+#tools > .tool-box
+{
+	position: relative;
+	width: 100%;
+}
+#tools > .tool-box > .text-wrapper
+{
+	left: 0px;
+	margin-top: 80px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+#tools > .tool-box > .text-wrapper > h3
+{
+	color: #FFFFFF;
+	font-size: 34px;
+	font-family: 'Open Sans Regular', sans-serif;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#tools > .tool-box > .text-wrapper > p
+{
+	color: #FFFFFF;
+	font-size: 26px;
+	font-family: 'Open Sans Light', sans-serif;
+	font-weight: 100;
+	line-height: 34px;
+	margin-bottom: 40px;
+	padding: 0px 8%;
+	text-align: center;
+	width: 80%;
+}
+#tools > .tool-box > img
+{
 	height: auto;
-	margin-top: 60px;
-	width: 100%
+	position: relative;
+	width: 100%;
+}
+#btn-learn-more
+{
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	border-radius: 60px;
+	color: #2C2727;
+	cursor: pointer;
+	font-size: 22px;
+	height: 83px;
+	margin: 0px auto 0px auto;
+	padding-top: 40px;
+	text-align: center;
+	width: 123px;
+}
+#btn-learn-more:hover
+{
+	background-color: #CB0D0D;
+}
+#btn-learn-more:active
+{
+	background-color: #CB0D0D;
+	color: #FFFFFF;
 }
