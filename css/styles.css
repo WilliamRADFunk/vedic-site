@@ -302,6 +302,7 @@ footer p
 }
 .developer img
 {
+	border: 1px solid #CCCCCC;
 	border-radius: 105px;
 	height: 201px;
 	width: 201px;
