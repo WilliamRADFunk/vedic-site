@@ -417,19 +417,17 @@ footer p
 }
 #how-it-works > .text-wrapper
 {
+	background-color: #2C2727;
 	left: 0px;
-	padding-top: 125px;
+	padding-top: 45px;
 	position: absolute;
-	top: 0px;
-	width: 39%;
-	z-index: 100;
+	top: 60px;
+	width: 43%;
+	z-index: 90;
 }
 #how-it-works > .text-wrapper > ul
 {
 	color: #EBCECE;
-	font-size: 16px;
-	font-weight: lighter;
-	line-height: 18px;
 	list-style: none;
 	margin-top: 0px;
 	padding-left: 2%;
@@ -438,7 +436,13 @@ footer p
 #how-it-works > .text-wrapper > ul > li
 {
 	background-image: url("../assets/bgd-red-bullet.png");
+	background-position: 0px 7px;
 	background-repeat: no-repeat;
 	display: block;
-	margin-left: 5%;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 18px;
+	margin-left: 3%;
+	margin-top: 8px;
+	padding-left: 3%;
 }
