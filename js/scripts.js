@@ -37,3 +37,7 @@ function closeFeatureTip()
 {
 	document.getElementById('feature-tooltip').style.display = 'none';
 }
+function showDoc(elem)
+{
+	//elem.getElementsByTagName('h6')[0].style.display = 'block';
+}

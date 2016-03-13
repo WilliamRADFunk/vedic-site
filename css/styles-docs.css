@@ -4,8 +4,10 @@ a
 }
 body
 {
-    background-color: #445884;
-    color: #EADA8E;
+    background-color: #2C2727;
+    color: #EBCECE;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
     margin: 20px auto;
     width: 80%;
 }
@@ -48,6 +50,19 @@ table, th, td
 th, td
 {
     padding: 10px 0px;
+}
+ul > li
+{
+    background-image: url("../assets/bgd-red-bullet.png");
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 18px;
+    margin-left: 3%;
+    margin-top: 2%;
+    padding-left: 3%;
 }
 .inner-list
 {
