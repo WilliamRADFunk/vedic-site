@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>830</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>Implementation Phase - Programming (Rodriguez Tasks)
+--
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>40</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1 Work Day = 8 Hours
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>40</y>
+      <w>270</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>All sections start and end with unit tests
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>250</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Implement Resources*
+*Sound Cues*
+Work Days = 2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>90</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>*Error Detection/Handling*
+Work Days = 10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>640</x>
+      <y>90</y>
+      <w>180</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>*Total Developer Days*
+
+Work Days = 58
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>160</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Create Resources*
+*Sound Cues*
+Work Days = 2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>210</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>160</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Object*
+*Relationship Matrix*
+Work Days = 14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>250</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*3D Mesh*
+*Factory*
+Work Days = 7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>210</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>90</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>*Function Graphs*
+Work Days = 14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>100</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>100</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>90</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>*Documentation*
+Work Days = 5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>340</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Montage*
+*(Presentation)*
+Work Days = 2
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>340</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Database Demo*
+*(Presentation)*
+Work Days = 1
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>340</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*C# Demo*
+*(Presentation)*
+Work Days = 1
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
