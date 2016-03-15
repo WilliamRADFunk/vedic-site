@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- JQUERY Library for additional functionality -->
     <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
-    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="js/jquery.jcarousel-pagination.js"></script>
     <!-- Customized scripts by William R.A.D. Funk -->
     <script type="text/javascript" src="js/scripts.js"></script>
 </head>
@@ -49,16 +47,14 @@
         <img src="assets/img-feature.png"/>
         <div id="feature-tooltip">
             <div class="tooltip-close" onclick="closeFeatureTip()"><img src="assets/btn-close.png"/></div>
-            <div id="feature-tooltip-message" class="jcarousel">
-                <ul>
+            <div id="feature-tooltip-message">
+                <ul id="feature-carousel">
                     <li>In the viewing of a database mode, the user will see a multitude of different shapes of varying colors, some interconnected, some standalone. These will consist of SQL tables with distinct sections representing columns within these tables. Both tables and columns will be labeled and their colors will be specific to the type of variable they contain (integer, float, char, etc.). Colored pipes or wires will connect these tables where relationships exist (joinings, sharedvariables, etc.). The number of rows in the table will either exist as a number adjacent to the table's title, or in the relative height of the object in scale with the other table shapes.</li>
                     <li>The creation and/or manipulation of databases mode will have the user seated at a virtual work­bench. On a wall directly in front of the desk/bench, and within arms­reach, will be a series of shelves with cabinets, bins, drawers, or boxes labeled with the corresponding object(s) they contain, with the image of the representative shape(s) on the front (ie. a cyan­colored, flat, rectangular cube representing a column that contains an integer type). On the desk/work­bench in front of the user will be the complex object they are building or manipulating (much like a 3­dimensional circuit diagram). This object/SQL­table will hover above the work­bench and can be connected using specifically colored wires/pipes to other tables and their columns. The user can change between view and edit modes at will. This mode will comply with the standard C.R.U.D. array of database operations: database tables can be Created, data can be Read from rows by columns (more easily in the view mode). Tables, columns, and rows can be Updated while any of those can be Deleted, as well. The system will implement one query at a time as the user submits them.</li>
                     <li>Third VEDIC mode is the viewing of a C# project. This mode will contain colored shapes and connections similar to the viewing of the database mode. The difference will be the number of different shapes and colors as a programming project has a more diverse set of components than that of an SQL database. This view will share many similarities with a UML diagram, both structural and behavioral, with a third dimension to better illustrate the complexity and interaction that the objects possess.</li>
                     <li>The fourth and final VEDIC mode of operation is the creation and/or manipulation of C# files and classes within a project. Similar to the create/edit mode for databases, there will be many more shapes, colors, and connections to add into the 3D circuit floating above the work­bench. These classes, their functions and variables, can be transpiled into an export format when the user elects to do so, and converted to C# files in a project folder for later compiling by the user outside of the VEDIC system.</li>
                 </ul>
-                <div class="jcarousel-pagination">
-                <!-- Pagination items will be generated in here -->
-                </div>
+                <div id="pagination"></div>
             </div>
         </div>
     </div>
@@ -108,47 +104,47 @@
     <div id="documentation">
         <div class="sub-header">DOCUMENTATION</div>
         <div class="doc-wrapper">
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/concept-of-operations.html','_blank');">
                 <h6>Concept of Operations</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-con-ops.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/project-proposal.pdf','_blank');">
                 <h6>Project Overview</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-project-proposal.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/research-phase.pdf','_blank');">
                 <h6>Research Phase</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-research-phase.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/design-phase.pdf','_blank');">
                 <h6>Design Phase</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-design-phase.png"/>
             </div>
         </div>
         <div class="doc-wrapper">
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
-                <h6>Implementation Phase (Funk)</h6>
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/implementation-phase-database-funk.pdf','_blank');">
+                <h6>Implementation Phase - Database (Funk)</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-implementation-phase-funk.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
-                <h6>Implementation Phase (Rodriguez)</h6>
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/implementation-phase-database-rodriguez.pdf','_blank');">
+                <h6>Implementation Phase - Database (Rodriguez)</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-implementation-phase-rodriguez.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
-                <h6>Implementation Phase (Vinson)</h6>
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/implementation-phase-database-vinson.pdf','_blank');">
+                <h6>Implementation Phase - Database (Vinson)</h6>
                 <div class="doc-overlay"></div>
                 <img src="assets/thumbnail-implementation-phase-vinson.png"/>
             </div>
-            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)">
-                <h6>Something Else</h6>
+            <div class="doc-box" onmouseover="showDoc(this)" onmouseout="hideDoc(this)" onclick="window.open('docs/Block_Diagrams/implementation-phase-programming-funk.pdf','_blank');">
+                <h6>Implementation Phase - C# (Funk)</h6>
                 <div class="doc-overlay"></div>
-                <img src="assets/thumbnail-con-ops.png"/>
+                <img src="assets/thumbnail-implementation-phase-csharp-funk.png"/>
             </div>
         </div>
     </div>

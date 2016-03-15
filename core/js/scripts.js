@@ -1,13 +1,3 @@
-$(function()
-{
-    $('.jcarousel').jcarousel({
-        // Core configuration goes here
-    });
-
-    $('.jcarousel-pagination').jcarouselPagination({
-	    'carousel': $('.jcarousel')
-	});
-});
 function openBio(name)
 {
 	var elem = document.getElementById('dev-tooltip-message');
@@ -31,11 +21,38 @@ function closeBio()
 }
 function openFeatureTip()
 {
+	$('#feature-carousel li').each(function(index) {
+		if(index !== 0)
+		{
+			$( this ).css('display', 'none');
+			$('#pagination').append('<div id=p' + index + ' class="page" onclick="changePage(this)"></div>');
+		}
+		else $('#pagination').append('<div id=p' + index + ' class="page active" onclick="changePage(this)"></div>');
+	});
 	document.getElementById('feature-tooltip').style.display = 'block';
 }
 function closeFeatureTip()
 {
+	$('#pagination').empty();
 	document.getElementById('feature-tooltip').style.display = 'none';
+}
+function changePage(elem)
+{
+	var page;
+	$('#pagination div').each(function(index)
+	{
+		$(this).removeClass('active');
+		if( $( this )[0].id === elem.id )
+		{
+			page = index;
+			$( this ).addClass('active');
+		}
+	});
+	$('#feature-carousel li').each(function(index)
+	{
+		if(index === page) $( this ).css('display', 'block');
+		else $( this ).css('display', 'none');
+	});
 }
 function showDoc(elem)
 {
