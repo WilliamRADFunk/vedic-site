@@ -116,11 +116,17 @@ footer p
 	color: #FFFFFF;
 	font-size: 13px;
 	line-height: 20px;
-	padding: 2px 20px 0px 0px;
+	padding: 2px 20px 2px 0px;
 	text-decoration: none;
 }
 #ext-links a:hover
 {
+	background-image: url('../assets/ext-links-arrow-active.png');
+	color: #2C2727;
+}
+#ext-links .home
+{
+	background-image: url('../assets/ext-links-arrow-active.png');
 	color: #2C2727;
 }
 #intro
@@ -508,4 +514,72 @@ footer p
 	margin-left: 3%;
 	margin-top: 4%;
 	padding-left: 3%;
+}
+.blog-topic
+{
+	display: block;
+	margin-bottom: 100px;
+	margin-top: 80px;
+	position: relative;
+	width: 100%;
+}
+.blog-topic > .doc-wrapper
+{
+	width: 100%
+}
+.blog-topic > .doc-wrapper > .doc-box
+{
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 25%;
+}
+.blog-topic > .doc-wrapper > .doc-box > h6
+{
+	color: #FFFFFF;
+	display: none;
+	font-size: 13px;
+	height: 56%;
+	margin-top: 0px;
+	padding-left: 11%;
+	padding-top: 24%;
+	position: absolute;
+	text-align: center;
+	width: 78%;
+	z-index: 95;
+}
+.blog-topic > .doc-wrapper > .doc-box > .doc-overlay
+{
+	background-color: rgba(191,186,186,0.7);
+	background-image: url('../assets/btn-plus-black.png');
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 100% 100%;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 90;
+}
+.blog-topic > .doc-wrapper > .doc-box > img
+{
+	height: auto;
+	width: 100%;
+}
+.more
+{
+	background-color: #2C2727;
+	border-radius: 40%;
+	color: #FFFFFF;
+	display: block;
+	left: 80%;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	width: 10%;
+	z-index: -10;
 }
