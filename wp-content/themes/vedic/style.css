@@ -1,0 +1,764 @@
+/*
+Theme Name: VEDIC
+Description: The default WordPress theme created for the V.E.D.C. Website
+Author: William Robert Funk
+Author URI: http://www.williamrobertfunk.com/
+Tags: 
+
+	This theme was designed by Andrea Acosta Duarte,
+	whose blog you will find at http://www.andreaacostaduarte.com/
+	This theme was built by William Robert Funk,
+	whose blog you will find at http://www.williamrobertfunk.com/
+
+*/
+body
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding: 0px;
+}
+header
+{
+	background-color: #CB0D0D;
+	display: block;
+	height: 80px;
+	position: relative;
+	width: 100%;
+}
+header ul
+{
+	display: block;
+	list-style: none;
+	margin: 0px auto;
+	width: 535px;
+}
+header li
+{
+	display: inline-block;
+	text-align: left;
+}
+header ul > li > a
+{
+	color: #FFFFFF;
+	display: block;
+	font-size: 13px;
+	font-weight: bolder;
+	height: 100%;
+	padding-left: 20px;
+	padding-top: 40px;
+	text-decoration: none;
+}
+header ul > li > a:hover
+{
+	color: #2C2727;
+}
+footer
+{
+	background-color: #F1F1F1;
+	color: #2C2727;
+	display: block;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+}
+footer ul
+{
+	display: block;
+	list-style: none;
+	margin: 0px auto 0px auto;
+	padding: 120px 0px 20px 0px;
+	width: 80%;
+}
+footer > ul > li
+{
+	display: inline-block;
+	margin-right: 40px;
+}
+footer > ul > li > a
+{
+	color: #CB0D0D;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+footer > ul > li > a:hover
+{
+	color: #2C2727;
+}
+footer p
+{
+	padding-bottom: 100px;
+}
+#logo-vedic
+{
+	background-image: url('assets/logo-vedic-small.png');
+	background-repeat: no-repeat;
+	background-size: 115px 80px;
+	display: block;
+	float: left;
+	height: 80px;
+	margin-left: 30px;
+	width: 15%;
+}
+#ext-links
+{
+	float: right;
+	height: 100%;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	width: 15%;
+}
+#ext-links .ext-link
+{
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+}
+#ext-links a
+{
+	background-image: url('assets/ext-link-arrow.png');
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: right;
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 2px 20px 2px 0px;
+	text-decoration: none;
+}
+#ext-links a:hover
+{
+	background-image: url('assets/ext-link-arrow-active.png');
+	color: #2C2727;
+}
+#ext-links .home
+{
+	background-image: url('assets/ext-links-arrow-active.png');
+	color: #2C2727;
+}
+#intro
+{
+	display: block;
+	font-size: 24px;
+	text-align: center;
+}
+#intro-logo
+{
+	background-image: url('assets/logo-vedic-large.png');
+	background-repeat: no-repeat;
+	height: 65px;
+	margin: 165px auto 30px auto;
+	width: 324px;
+}
+#btn-download
+{
+	background-color: #2C2727;
+	border: 0px solid #000000;
+	border-radius: 60px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 22px;
+	height: 83px;
+	margin: 20px auto 70px auto;
+	padding-top: 40px;
+	width: 123px;
+}
+#btn-download:hover
+{
+	background-color: #CB0D0D;
+	color: #2C2727;
+}
+#btn-download:active
+{
+	background-color: #CB0D0D;
+	color: #FFFFFF;
+}
+#feature
+{
+	left: 0px;
+	position: relative;
+	top: 0px;
+}
+#feature img
+{
+	height: auto;
+	width: 100%;
+}
+#feature h3
+{
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: bolder;
+	left: 0px;
+	position: relative;
+	text-align: center;
+	top: 42px;
+	z-index: 100;
+}
+#feature-node
+{
+	cursor: pointer;
+	height: 22%;
+	left: 53%;
+	position: absolute;
+	top: 39%;
+	width: 10%;
+	z-index: 150;
+}
+#feature-tooltip
+{
+	display: none;
+	height: 60%;
+	left: 13%;
+	position: absolute;
+	top: 25%;
+	width: 80%;
+	z-index: 200;
+}
+#feature-tooltip-message
+{
+	background-color: rgba(0,0,0,0.7);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	height: auto;
+	line-height: 25px;
+	padding: 2% 2% 1% 2%;
+	position: absolute;
+	right: 7%;
+	top: 0px;
+	width: 95%;
+}
+#feature-tooltip-message ul
+{
+	list-style: none;
+}
+.tooltip-close
+{
+	background-color: #CB0D0D;
+	cursor: pointer;
+	height: auto;
+	padding: 5px;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	width: 5%;
+}
+.tooltip-close img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pagination
+{
+	display: block;
+	margin: 6px auto;
+	position: relative;
+	text-align: center;
+	width: 50%;
+}
+.page
+{
+	background-color: #EAEDEF;
+	border-radius: 20px;
+	cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	margin: 0px 5px;
+	width: 15px;
+}
+.active
+{
+	background-color: #BB1214 !important;
+}
+#developers
+{
+	display: block;
+	height: auto;
+	position: relative;
+	width: 100%
+}
+#devs
+{
+	display: block;
+	height: auto;
+	margin: 120px 0px 60px 0px;
+	overflow: hidden;
+	width: 100%;
+}
+.sub-header
+{
+	background-color: #CB0D0D;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	display: block;
+	font-size: 16px;
+	font-weight: bolder;
+	height: 40px;
+	padding: 20px 0px 0px 30px;
+	position: relative;
+	top: 30px;
+	width: 230px;
+	z-index: 100;
+}
+.developer
+{
+	display: block;
+	float: left;
+	margin-left: 10%;
+	text-align: center;
+}
+.developer h4
+{
+	color: #CB0D0D;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.developer h5
+{
+	display: block;
+	height: 18px;
+}
+.developer img
+{
+	border: 1px solid #CCCCCC;
+	border-radius: 105px;
+	height: 201px;
+	width: 201px;
+}
+.developer img:hover
+{
+	content:url('assets/img-dev-hover.png')
+}
+#dev-tooltip
+{
+	display: none;
+	height: 60%;
+	left: 3%;
+	position: absolute;
+	top: 25%;
+	width: 95%;
+	z-index: 200;
+}
+#dev-tooltip-message
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;
+	height: auto;
+	line-height: 30px;
+	padding: 2% 2% 5% 2%;
+	position: absolute;
+	right: 7%;
+	top: 0px;
+	width: 93%;
+}
+#tools
+{
+	margin-top: 0px;
+}
+#tools > .tool-box
+{
+	position: relative;
+	width: 100%;
+}
+#tools > .tool-box > .text-wrapper
+{
+	left: 0px;
+	margin-top: 80px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+#tools > .tool-box > .text-wrapper > h3
+{
+	color: #FFFFFF;
+	font-size: 34px;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#tools > .tool-box > .text-wrapper > p
+{
+	color: #FFFFFF;
+	font-size: 26px;
+	font-weight: lighter;
+	line-height: 34px;
+	margin-bottom: 40px;
+	padding: 0px 8%;
+	text-align: center;
+	width: 80%;
+}
+#tools > .tool-box > img
+{
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+#btn-learn-more
+{
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	border-radius: 60px;
+	color: #2C2727;
+	cursor: pointer;
+	display: block;
+	font-size: 22px;
+	height: 83px;
+	margin: 0px auto 0px auto;
+	padding-top: 40px;
+	text-align: center;
+	text-decoration: none;
+	width: 123px;
+
+}
+#btn-learn-more:hover
+{
+	background-color: #CB0D0D;
+}
+#btn-learn-more:active
+{
+	background-color: #CB0D0D;
+	color: #FFFFFF;
+}
+#documentation
+{
+	display: block;
+	margin-bottom: 30px;
+	position: relative;
+	width: 100%;
+}
+#documentation > .doc-wrapper
+{
+	width: 100%;
+}
+#documentation > .doc-wrapper .doc-box
+{
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 25%;
+	z-index: 1;
+}
+#documentation > .doc-wrapper .doc-box > h6
+{
+	color: #FFFFFF;
+	display: none;
+	font-size: 13px;
+	height: 56%;
+	margin-top: 0px;
+	padding-left: 11%;
+	padding-top: 24%;
+	position: absolute;
+	text-align: center;
+	width: 78%;
+	z-index: 95;
+}
+#documentation > .doc-wrapper .doc-box > .doc-overlay
+{
+	background-color: rgba(191,186,186,0.7);
+	background-image: url('assets/btn-plus-black.png');
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 100% 100%;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 90;
+}
+#documentation > .doc-wrapper .doc-box > img
+{
+	height: auto;
+	width: 100%;
+}
+#how-it-works
+{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#how-it-works > img
+{
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+#how-it-works > .text-wrapper
+{
+	background-color: #2C2727;
+	left: 0px;
+	padding-top: 45px;
+	position: absolute;
+	top: 60px;
+	width: 43%;
+	z-index: 90;
+}
+#how-it-works > .text-wrapper > ul
+{
+	color: #EBCECE;
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 2%;
+	width: 100%;
+}
+#how-it-works > .text-wrapper > ul > li
+{
+	background-image: url('assets/bgd-red-bullet.png');
+	background-position: 0px 7px;
+	background-repeat: no-repeat;
+	display: block;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 18px;
+	margin-left: 3%;
+	margin-top: 4%;
+	padding-left: 3%;
+}
+.blog-topic
+{
+	display: block;
+	margin-bottom: 100px;
+	margin-top: 80px;
+	position: relative;
+	width: 100%;
+}
+.blog-topic > .doc-wrapper
+{
+	width: 100%;
+	overflow: hidden;
+}
+.blog-topic > .doc-wrapper .doc-box
+{
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 25%;
+	z-index: 1;
+}
+.blog-topic > .doc-wrapper .doc-box > h6
+{
+	color: #FFFFFF;
+	display: none;
+	font-size: 13px;
+	height: 56%;
+	margin-top: 0px;
+	padding-left: 11%;
+	padding-top: 24%;
+	position: absolute;
+	text-align: center;
+	width: 78%;
+	z-index: 95;
+}
+.blog-topic > .doc-wrapper .doc-box > .doc-overlay
+{
+	background-color: rgba(191,186,186,0.7);
+	background-image: url('assets/btn-plus-black.png');
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 100% 100%;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 90;
+}
+.blog-topic > .doc-wrapper .doc-box > img
+{
+	height: auto;
+	width: 100%;
+}
+.more
+{
+	background-color: #2C2727 !important;
+	bottom: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal !important;
+	padding: 10px;
+	text-align: center;
+	width: 10%;
+	float: right;
+	clear: both;
+}
+.more.done {
+	display: none;
+}
+#post
+{
+	display: block;
+	overflow: auto;
+}
+#post-img
+{
+	display: block;
+	margin-bottom: 100px;
+	margin-top: 80px;
+	position: relative;
+	width: 100%;
+}
+#post-img > .head-wrapper
+{
+	width: 100%;
+	overflow: hidden;
+}
+#post-img > .head-wrapper > .head-box
+{
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}
+#post-img > .head-wrapper > .head-box > img
+{
+	border-bottom: 1px solid #000000;
+	height: auto;
+	width: 100%;
+}
+#post-body
+{
+	display: block;
+	overflow: auto;
+	width: 100%;
+}
+#post-body > #author
+{
+	display: block;
+	float: left;
+	padding: 10px 2%;
+	width: 8%;
+}
+#post-body > #author > img
+{
+	height: auto;
+	margin-bottom: 5px;
+	width: 100%;
+}
+#post-body > #author > #name,
+#post-body > #author > #name > a,
+#post-body > #author > #name > a:visited
+{
+	color: #CB0D0D;
+	font-size: 16px;
+	font-weight: bold;
+}
+#post-body > #author > #post-date
+{
+	font-size: 12px;
+	margin-top: 3px;
+	font-weight: lighter;
+}
+#post-body > #post-content
+{
+	display: block;
+	float: left;
+	padding-right: 8%;
+	width: 80%;
+}
+#post-body > #post-content > p > a,
+#post-body > #post-content > p > a:visited
+{
+	color:#CB0D0D;
+	display: block;
+	text-decoration: none;
+}
+#post-body > #post-content > p > a:hover
+{
+	text-decoration: underline;
+}
+#post-body > #post-content > h2
+{
+	color: #CB0D0D;
+	font-size: 24px;
+	margin: 30px 0px 5px 0px;
+}
+#post-body > #post-content > h3
+{
+	margin-bottom: 20px;
+}
+#post-body > #post-content > p
+{
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+#post-body > #post-content > ul
+{
+	list-style-type: square;
+	margin-bottom: 30px;
+	padding-left: 40px;
+}
+#post-body > #post-content > ul > li
+{
+	margin-top: 10px;
+}
+#links-page h1,
+#contact-us h1,
+#license h1
+{
+	color: #2C2727;
+	font-size: 32px;
+	margin: 30px 0px 15px 0px;
+	text-align: center;
+}
+#links-page div
+{
+	text-align: center;
+}
+#links-page div,
+#contact-us div,
+#license div
+{
+	margin: 10px auto 30px auto;
+	width:60%;
+}
+#contact-us div,
+#license div
+{
+	text-align: left;
+}
+#links-page h2,
+#contact-us h2,
+#license h2
+{
+	color: #2C2727;
+	font-size: 24px;
+	margin: 15px 0px;
+}
+#links-page a,
+#links-page a:visited
+{
+	color: #CB0D0D;
+	display: block;
+}
+#contact-us span
+{
+	color: #CB0D0D;
+	margin-left: 10px;
+}
+#license p
+{
+	margin: 15px 0px;
+}
