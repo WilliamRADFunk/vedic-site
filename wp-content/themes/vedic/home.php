@@ -9,14 +9,14 @@ Template Name: Homepage
 get_header(); ?>
 
     <div id="intro">
-        <div id="intro-logo"></div>
+        <div id="intro-logo"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/logo-vedic-large.png" alt="VEDIC"/></div>
         <h2 id="tagline">A modern programming environment for the modern programmer</h2>
         <div id="btn-download" onclick="alert('VEDIC is still in development. No trial version exists as of yet.')">Download<br/>Now</div>
     </div>
     <div id="feature">
         <h3>Interactive Development Environment</h3>
         <div id="feature-node" onclick="openFeatureTip()"> </div>
-        <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-feature.png"/>
+        <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-feature.jpg"/>
         <div id="feature-tooltip">
             <div class="tooltip-close" onclick="closeFeatureTip()"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/btn-close.png"/></div>
             <div id="feature-tooltip-message">
