@@ -793,7 +793,19 @@ footer p
 {
 	margin: 15px 0px;
 }
+@media (max-width: 1258px) {
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 14px;
+		margin-top: 2%;
+	}
+}
 @media (max-width: 1040px) {
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 13px;
+		margin-top: 1%;
+	}
 	#tools > .tool-box > .text-wrapper > h3
 	{
 		font-size: 30px;
@@ -817,6 +829,11 @@ footer p
 	}
 }
 @media (max-width: 986px) {
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 12px;
+		margin-top: 1%;
+	}
 	.developer
 	{
 		display: block;
@@ -824,6 +841,30 @@ footer p
 		margin: 10px auto;
 		text-align: center;
 		width: 100%;
+	}
+}
+@media (max-width: 927px) {
+	#how-it-works {
+		height: 400px;
+	}
+	#how-it-works > img
+	{
+		display: none;
+	}
+	#how-it-works > .text-wrapper
+	{
+		height: 400px;
+		left: 0px;
+		padding-top: 45px;
+		position: absolute;
+		top: 60px;
+		width: 100%;
+	}
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 16px;
+		margin-top: 2%;
+		width: 90%;
 	}
 }
 @media (max-width: 900px) {
@@ -898,6 +939,10 @@ footer p
 	{
 		font-size: 12px;
 	}
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 14px;
+	}
 	#tools > .tool-box > .text-wrapper
 	{
 		margin-top: 38px;
@@ -922,6 +967,11 @@ footer p
 	{
 		font-size: 16px;
 	}
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 13px;
+		margin-top: 1%;
+	}
 	#tools > .tool-box > .text-wrapper > h3
 	{
 		font-size: 22px;
@@ -945,6 +995,15 @@ footer p
 	}
 }
 @media (max-width: 394px) {
+	#how-it-works
+	{
+		height: 450px;
+	}
+	#how-it-works > .text-wrapper > ul > li
+	{
+		font-size: 13px;
+		margin-top: 1%;
+	}
 	#tools > .tool-box > .text-wrapper > h3
 	{
 		font-size: 20px;
