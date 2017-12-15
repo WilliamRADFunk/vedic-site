@@ -1,6 +1,6 @@
 /*
 Theme Name: VEDIC
-Description: The default WordPress theme created for the V.E.D.C. Website
+Description: The default WordPress theme created for the V.E.D.I.C. Website
 Author: William Robert Funk
 Author URI: http://www.williamrobertfunk.com/
 Tags: 
@@ -8,7 +8,7 @@ Tags:
 	This theme was designed by Andrea Acosta Duarte,
 	whose blog you will find at http://www.andreaacostaduarte.com/
 	This theme was built by William Robert Funk,
-	whose blog you will find at http://www.williamrobertfunk.com/
+	whose portfolio you will find at http://www.williamrobertfunk.com/
 
 */
 body
@@ -161,22 +161,33 @@ footer p
 	background-color: #2C2727;
 	border: 0px solid #000000;
 	border-radius: 60px;
-	color: #FFFFFF;
 	cursor: pointer;
-	font-size: 22px;
 	height: 83px;
 	margin: 20px auto 70px auto;
 	padding-top: 40px;
 	width: 123px;
+}
+#btn-download > a
+{
+	color: #FFFFFF;
+	font-size: 22px;
+	text-decoration: none;
 }
 #btn-download:hover
 {
 	background-color: #CB0D0D;
 	color: #2C2727;
 }
+#btn-download:hover > a
+{
+	color: #2C2727;
+}
 #btn-download:active
 {
 	background-color: #CB0D0D;
+}
+#btn-download:active > a
+{
 	color: #FFFFFF;
 }
 #feature
@@ -781,4 +792,99 @@ footer p
 #license p
 {
 	margin: 15px 0px;
+}
+@media (max-width: 1040px) {
+	#tools > .tool-box > .text-wrapper > h3
+	{
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	#tools > .tool-box > .text-wrapper > p
+	{
+		font-size: 22px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		padding: 0px 8%;
+		width: 80%;
+	}
+	#btn-learn-more
+	{
+		font-size: 22px;
+		height: 83px;
+		padding-top: 40px;
+		width: 123px;
+
+	}
+}
+@media (max-width: 986px) {
+	.developer
+	{
+		display: block;
+		float: left;
+		margin: 10px auto;
+		text-align: center;
+		width: 100%;
+	}
+}
+@media (max-width: 900px) {
+	#tools > .tool-box > .text-wrapper > h3
+	{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	#tools > .tool-box > .text-wrapper > p
+	{
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 25px;
+		padding: 0px 8%;
+		width: 80%;
+	}
+	#btn-learn-more
+	{
+		font-size: 18px;
+		font-weight: bold;
+		height: 63px;
+		padding-top: 30px;
+		width: 95px;
+
+	}
+}
+@media (max-width: 750px) {
+	#tools > .tool-box > .text-wrapper > h3
+	{
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	#tools > .tool-box > .text-wrapper > p
+	{
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 15px;
+		padding: 0px 8%;
+		width: 80%;
+	}
+	#btn-learn-more
+	{
+		font-size: 14px;
+		font-weight: bold;
+		height: 40px;
+		padding-top: 12px;
+		width: 55px;
+
+	}
+}
+@media (max-width: 600px) {
+	#tools > .tool-box > .text-wrapper
+	{
+		margin-top: 38px;
+	}
+	#tools > .tool-box > .text-wrapper > p
+	{
+		font-size: 13px;
+		line-height: 18px;
+		margin-bottom: 10px;
+		padding: 0px 3%;
+		width: 90%;
+	}
 }

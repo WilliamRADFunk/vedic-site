@@ -11,7 +11,9 @@ get_header(); ?>
     <div id="intro">
         <div id="intro-logo"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/logo-vedic-large.png" alt="VEDIC"/></div>
         <h2 id="tagline">A modern programming environment for the modern programmer</h2>
-        <div id="btn-download" onclick="alert('VEDIC is still in development. No trial version exists as of yet.')">Download<br/>Now</div>
+        <div  id="btn-download">
+            <a href="https://github.com/WilliamRADFunk/vedic" target="_blank">Fork<br/>the Repo</a>
+        </div>
     </div>
     <div id="feature">
         <h3>Interactive Development Environment</h3>
