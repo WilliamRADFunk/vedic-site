@@ -1,6 +1,6 @@
 /*
 Theme Name: VEDIC
-Description: The default WordPress theme created for the V.E.D.C. Website
+Description: The default WordPress theme created for the V.E.D.I.C. Website
 Author: William Robert Funk
 Author URI: http://www.williamrobertfunk.com/
 Tags: 
