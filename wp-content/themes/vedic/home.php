@@ -62,7 +62,9 @@ get_header(); ?>
             <div class="text-wrapper">
                 <h3>OCULUS RIFT DK2</h3>
                 <p>With one lightweight headset, an end-user can transport themselves into a whole new reality. With the DevKit 2.0, a programmer can launch their code into untapped frontiers.</p>
-                <a id="btn-learn-more" href="https://www.oculus.com/en-us/dk2/" target="_blank">Learn<br/>More</a>
+                <div id="btn-learn-more-wrapper">
+                    <a id="btn-learn-more" href="https://www.oculus.com/en-us/dk2/" target="_blank">Learn<br/>More</a>
+                </div>
             </div>
             <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-oculus.jpg"/>
         </div>
@@ -70,7 +72,9 @@ get_header(); ?>
             <div class="text-wrapper">
                 <h3>LEAP MOTION</h3>
                 <p>Never before has the term reach-out-and-touch been better realized than with the Leap Motion Controller. With this gadget, and supporting software, any object inside VEDIC is fair game for manipulation.</p>
-                <a id="btn-learn-more" href="https://developer.leapmotion.com/orion" target="_blank">Learn<br/>More</a>
+                <div id="btn-learn-more-wrapper">
+                    <a id="btn-learn-more" href="https://developer.leapmotion.com/orion" target="_blank">Learn<br/>More</a>
+                </div>
             </div>
             <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-leap.jpg"/>
         </div>
