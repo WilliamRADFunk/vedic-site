@@ -476,12 +476,11 @@ footer p
 	color: #FFFFFF;
 	display: none;
 	font-size: 13px;
-	height: 56%;
 	margin-top: 0px;
 	padding-left: 11%;
-	padding-top: 24%;
 	position: absolute;
 	text-align: center;
+	top: 45%;
 	width: 78%;
 	z-index: 95;
 }
@@ -501,7 +500,7 @@ footer p
 }
 #documentation > .doc-wrapper .doc-box > img
 {
-	height: auto;
+	height: 243px;
 	width: 100%;
 }
 #how-it-works
