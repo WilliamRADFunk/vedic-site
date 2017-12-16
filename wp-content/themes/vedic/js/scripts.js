@@ -34,6 +34,10 @@ function closeBio()
 {
 	document.getElementById('dev-tooltip').style.display = 'none';
 }
+function closeHamburger()
+{
+	document.getElementById('pure-toggle-left').checked = false;
+}
 function openFeatureTip()
 {
 	jQuery('#feature-carousel li').each(function(index) {

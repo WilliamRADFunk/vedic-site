@@ -32,6 +32,10 @@ header #hamburger-menu .pure-pusher-container > .pure-pusher
 	position: relative;
 	width: 100%;
 }
+header #hamburger-menu .pure-container .pure-toggle-label
+{
+	z-index: 1001;
+}
 header #desktop-menu ul,
 header #hamburger-menu .pure-pusher-container > .pure-pusher ul,
 header #hamburger-menu .pure-drawer ul
@@ -40,6 +44,10 @@ header #hamburger-menu .pure-drawer ul
 	list-style: none;
 	margin: 0px auto;
 	width: 100%;
+}
+header #hamburger-menu .pure-drawer
+{
+	z-index: 1000;
 }
 header #desktop-menu li,
 header #hamburger-menu .pure-pusher-container > .pure-pusher li
@@ -82,6 +90,21 @@ header #hamburger-menu
 {
 	display: none;
 	background-color: #CB0D0D;
+}
+.pure-toggle-label[data-toggle-label='left'],
+.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left']
+{
+	z-index: 1001;
+}
+.pure-toggle-label
+{
+	display: inline-block;
+	position: relative;
+}
+.pure-pusher-container
+{
+	display: inline-block;
+	float: right;
 }
 footer
 {
@@ -929,11 +952,12 @@ footer p
 	header #hamburger-menu
 	{
 		display: block;
+		height: 80px;
 	}
 	#logo-vedic
 	{
 		float: right;
-		padding-right: 65px;
+		padding-right: 110px;
 		text-align: right;
 	}
 	header #hamburger-menu .pure-pusher-container > .pure-pusher ul,

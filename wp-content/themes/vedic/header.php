@@ -56,11 +56,11 @@
 
             <div class="pure-drawer" data-position="left">
                 <ul>
-                    <li><a href="http://vedicode.com/#feature" data-toggle="left">DATABASE</a></li>
-                    <li><a href="http://vedicode.com/#developers">DEVELOPERS</a></li>
-                    <li><a href="http://vedicode.com/#tools">TOOLS</a></li>
-                    <li><a href="http://vedicode.com/#documentation">DOCUMENTATION</a></li>
-                    <li><a href="http://vedicode.com/#how-it-works">HOW IT WORKS</a></li>
+                    <li><a href="http://vedicode.com/#feature" onclick="closeHamburger();">DATABASE</a></li>
+                    <li><a href="http://vedicode.com/#developers" onclick="closeHamburger();">DEVELOPERS</a></li>
+                    <li><a href="http://vedicode.com/#tools" onclick="closeHamburger();">TOOLS</a></li>
+                    <li><a href="http://vedicode.com/#documentation" onclick="closeHamburger();">DOCUMENTATION</a></li>
+                    <li><a href="http://vedicode.com/#how-it-works" onclick="closeHamburger();">HOW IT WORKS</a></li>
                     <li><a href="http://vedicode.com/blog/">BLOG</a></li>
                     <li><a href="http://vedicode.com/contact-us/">CONTACT US</a></li>
                 </ul>
