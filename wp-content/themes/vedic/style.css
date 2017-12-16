@@ -943,6 +943,41 @@ footer p
 		overflow: hidden;
 		width: 80%;
 	}
+	#post-body > #author
+	{
+		display: block;
+		float: left;
+		padding: 0px;
+		width: 100%;
+	}
+	#post-body > #author > img
+	{
+		float: left;
+		height: auto;
+		width: 20%;
+	}
+	#post-body > #author > #name,
+	#post-body > #author > #name > a,
+	#post-body > #author > #name > a:visited
+	{
+		color: #CB0D0D;
+		float: left;
+		font-size: 22px;
+		margin-left: 20px;
+		width: 65%;
+	}
+	#post-body > #author > #post-date
+	{
+		float: left;
+		font-size: 16px;
+		margin-left: 40px;
+		margin-top: 15px;
+		width: 20%;
+	}
+	#post-body > #author > #name > span
+	{
+		display: none;
+	}
 }
 @media (max-width: 850px) {
 	header #desktop-menu

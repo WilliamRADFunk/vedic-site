@@ -32,7 +32,7 @@ get_header(); ?>
         <div id="post-body">
             <div id="author">
                 <?php echo get_avatar( get_the_author_id() ); ?>
-                <p id="name">by <a href=""><?php echo get_the_author() ?></a></p>
+                <p id="name"><span id="by-line">by </span><a href=""><?php echo get_the_author() ?></a></p>
                 <p id="post-date">March 9th, 2016</p>
             </div>
             <div id="post-content"><?php the_content('Read the rest of this entry &raquo;'); ?></div>
