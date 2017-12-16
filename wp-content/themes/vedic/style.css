@@ -456,18 +456,21 @@ footer p
 	height: 3px;
 	margin: 0px;
 }
-#documentation
+#documentation,
+.blog-topic
 {
 	display: block;
 	margin-bottom: 30px;
 	position: relative;
 	width: 100%;
 }
-#documentation > .doc-wrapper
+#documentation > .doc-wrapper,
+.blog-topic > .doc-wrapper
 {
 	width: 100%;
 }
-#documentation > .doc-wrapper .doc-box
+#documentation > .doc-wrapper .doc-box,
+.blog-topic > .doc-wrapper .doc-box
 {
 	cursor: pointer;
 	display: block;
@@ -478,7 +481,8 @@ footer p
 	width: 25%;
 	z-index: 1;
 }
-#documentation > .doc-wrapper .doc-box > h6
+#documentation > .doc-wrapper .doc-box > h6,
+.blog-topic > .doc-wrapper .doc-box > h6
 {
 	color: #FFFFFF;
 	display: none;
@@ -491,7 +495,8 @@ footer p
 	width: 78%;
 	z-index: 95;
 }
-#documentation > .doc-wrapper .doc-box > .doc-overlay
+#documentation > .doc-wrapper .doc-box > .doc-overlay,
+.blog-topic > .doc-wrapper .doc-box > .doc-overlay
 {
 	background-color: rgba(191,186,186,0.7);
 	background-image: url('assets/btn-plus-black.png');
@@ -505,7 +510,8 @@ footer p
 	width: 100%;
 	z-index: 90;
 }
-#documentation > .doc-wrapper .doc-box > img
+#documentation > .doc-wrapper .doc-box > img,
+.blog-topic > .doc-wrapper .doc-box > img
 {
 	height: 243px;
 	width: 100%;
@@ -556,60 +562,12 @@ footer p
 }
 .blog-topic
 {
-	display: block;
 	margin-bottom: 100px;
 	margin-top: 80px;
-	position: relative;
-	width: 100%;
 }
 .blog-topic > .doc-wrapper
 {
-	width: 100%;
 	overflow: hidden;
-}
-.blog-topic > .doc-wrapper .doc-box
-{
-	cursor: pointer;
-	display: block;
-	float: left;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
-	width: 25%;
-	z-index: 1;
-}
-.blog-topic > .doc-wrapper .doc-box > h6
-{
-	color: #FFFFFF;
-	display: none;
-	font-size: 13px;
-	height: 56%;
-	margin-top: 0px;
-	padding-left: 11%;
-	padding-top: 24%;
-	position: absolute;
-	text-align: center;
-	width: 78%;
-	z-index: 95;
-}
-.blog-topic > .doc-wrapper .doc-box > .doc-overlay
-{
-	background-color: rgba(191,186,186,0.7);
-	background-image: url('assets/btn-plus-black.png');
-	background-repeat: no-repeat;
-	background-size: auto auto;
-	background-position: 100% 100%;
-	height: 100%;
-	left: 0px;
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	z-index: 90;
-}
-.blog-topic > .doc-wrapper .doc-box > img
-{
-	height: 175px;
-	width: 100%;
 }
 .more
 {
@@ -832,7 +790,8 @@ footer p
 		padding-top: 40px;
 		width: 123px;
 	}
-	#documentation > .doc-wrapper .doc-box > img
+	#documentation > .doc-wrapper .doc-box > img,
+	.blog-topic > .doc-wrapper .doc-box > img
 	{
 		height: 145px;
 	}
@@ -906,7 +865,8 @@ footer p
 		padding-top: 30px;
 		width: 95px;
 	}
-	#documentation > .doc-wrapper .doc-box > h6
+	#documentation > .doc-wrapper .doc-box > h6,
+	.blog-topic > .doc-wrapper .doc-box > h6
 	{
 		height: 25px;
 		overflow: hidden;
@@ -943,11 +903,13 @@ footer p
 		padding-top: 12px;
 		width: 55px;
 	}
-	#documentation > .doc-wrapper .doc-box > img
+	#documentation > .doc-wrapper .doc-box > img,
+	.blog-topic > .doc-wrapper .doc-box > img
 	{
 		height: 110px;
 	}
-	#documentation > .doc-wrapper .doc-box > h6
+	#documentation > .doc-wrapper .doc-box > h6,
+	.blog-topic > .doc-wrapper .doc-box > h6
 	{
 		font-size: 12px;
 		top: 40%;
@@ -978,16 +940,19 @@ footer p
 		padding: 0px 3%;
 		width: 90%;
 	}
-	#documentation > .doc-wrapper .doc-box
+	#documentation > .doc-wrapper .doc-box,
+	.blog-topic > .doc-wrapper .doc-box
 	{
 		width: 100%;
 	}
-	#documentation > .doc-wrapper .doc-box > img
+	#documentation > .doc-wrapper .doc-box > img,
+	.blog-topic > .doc-wrapper .doc-box > img
 	{
 		display: block;
 		height: 243px;
 	}
-	#documentation > .doc-wrapper .doc-box > h6
+	#documentation > .doc-wrapper .doc-box > h6,
+	.blog-topic > .doc-wrapper .doc-box > h6
 	{
 		display: block;
 		font-size: 16px;
@@ -996,7 +961,8 @@ footer p
 		white-space: nowrap;
 		width: 80%;
 	}
-	#documentation > .doc-wrapper .doc-box > .doc-overlay
+	#documentation > .doc-wrapper .doc-box > .doc-overlay,
+	.blog-topic > .doc-wrapper .doc-box > .doc-overlay
 	{
 		background-color: rgba(0,0,0,0);
 		background-image: url('assets/btn-plus-white-and-title-bar.png');
@@ -1041,7 +1007,8 @@ footer p
 		padding-top: 20px;
 		width: 20%;
 	}
-	#documentation > .doc-wrapper .doc-box > h6
+	#documentation > .doc-wrapper .doc-box > h6,
+	.blog-topic > .doc-wrapper .doc-box > h6
 	{
 		display: block;
 		font-size: 16px;
