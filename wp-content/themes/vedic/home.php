@@ -12,7 +12,7 @@ get_header(); ?>
         <div id="intro-logo"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/logo-vedic-large.png" alt="VEDIC"/></div>
         <h2 id="tagline">A modern programming environment for the modern programmer</h2>
         <div  id="btn-download">
-            <a href="https://github.com/WilliamRADFunk/vedic" target="_blank">Fork<br/>the Repo</a>
+            <a href="https://github.com/WilliamRADFunk/vedic" target="_blank">FORK<br/>THE REPO</a>
         </div>
     </div>
     <div id="feature">

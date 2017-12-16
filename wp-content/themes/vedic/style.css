@@ -22,24 +22,39 @@ body
 header
 {
 	background-color: #CB0D0D;
+}
+header #desktop-menu,
+header #hamburger-menu .pure-pusher-container > .pure-pusher
+{
+	background-color: #CB0D0D;
 	display: block;
 	height: 80px;
 	position: relative;
 	width: 100%;
 }
-header ul
+header #desktop-menu ul,
+header #hamburger-menu .pure-pusher-container > .pure-pusher ul,
+header #hamburger-menu .pure-drawer ul
 {
 	display: block;
 	list-style: none;
 	margin: 0px auto;
-	width: 535px;
+	width: 100%;
 }
-header li
+header #desktop-menu li,
+header #hamburger-menu .pure-pusher-container > .pure-pusher li
 {
 	display: inline-block;
 	text-align: left;
 }
-header ul > li > a
+header #hamburger-menu .pure-drawer li
+{
+	display: block;
+	text-align: center;
+}
+header #desktop-menu ul > li > a,
+header #hamburger-menu .pure-pusher-container > .pure-pusher ul > li > a,
+header #hamburger-menu .pure-drawer ul > li > a
 {
 	color: #FFFFFF;
 	display: block;
@@ -50,9 +65,23 @@ header ul > li > a
 	padding-top: 40px;
 	text-decoration: none;
 }
-header ul > li > a:hover
+header #hamburger-menu .pure-drawer ul > li > a
+{
+	font-size: 16px;
+	height: 20px;
+	margin-top: 20px;
+	padding-left: 0px;
+}
+header #desktop-menu ul > li > a:hover,
+header #hamburger-menu .pure-pusher-container > .pure-pusher ul > li > a:hover,
+header #hamburger-menu .pure-drawer ul > li > a:hover
 {
 	color: #2C2727;
+}
+header #hamburger-menu
+{
+	display: none;
+	background-color: #CB0D0D;
 }
 footer
 {
@@ -90,6 +119,25 @@ footer > ul > li > a:hover
 footer p
 {
 	padding-bottom: 100px;
+}
+.pure-drawer
+{
+	background-color: #CB0D0D;
+	width: 100%;
+}
+.pure-toggle-label
+{
+	border: 2px solid #FFFFFF;
+}
+.pure-toggle-label .pure-toggle-icon,
+.pure-toggle-label .pure-toggle-icon:before,
+.pure-toggle-label .pure-toggle-icon:after
+{
+	background: #FFFFFF;
+}
+.pure-toggle-label[data-toggle-label='left']
+{
+	top: 3px;
 }
 #logo-vedic
 {
@@ -871,6 +919,27 @@ footer p
 		height: 25px;
 		overflow: hidden;
 		width: 80%;
+	}
+}
+@media (max-width: 850px) {
+	header #desktop-menu
+	{
+		display: none;
+	}
+	header #hamburger-menu
+	{
+		display: block;
+	}
+	#logo-vedic
+	{
+		float: right;
+		padding-right: 65px;
+		text-align: right;
+	}
+	header #hamburger-menu .pure-pusher-container > .pure-pusher ul,
+	header #hamburger-menu .pure-pusher-container > .pure-pusher #ext-links
+	{
+		display: none;
 	}
 }
 @media (max-width: 750px) {
