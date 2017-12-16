@@ -68,6 +68,7 @@ get_header(); ?>
             </div>
             <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-oculus.jpg"/>
         </div>
+        <hr class="blood-border"/>
         <div class="tool-box">
             <div class="text-wrapper">
                 <h3>LEAP MOTION</h3>
@@ -78,6 +79,7 @@ get_header(); ?>
             </div>
             <img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/assets/img-leap.jpg"/>
         </div>
+        <hr class="blood-border"/>
     </div>
     <div id="documentation">
         <div class="sub-header">DOCUMENTATION</div>

@@ -80,10 +80,13 @@ function showDoc(elem)
 }
 function hideDoc(elem)
 {
-	var div = elem.getElementsByTagName('div')[0];
-	div.style.backgroundColor = "rgba(191,186,186,0.7)";
-	div.style.backgroundImage = "url('/wp-content/themes/" + themeName + "/assets/btn-plus-black.png')";
-	div.style.backgroundSize = "auto auto";
-	div.style.backgroundPosition = "100% 100%";
-	elem.getElementsByTagName('h6')[0].style.display = 'none';
+	if(window.innerWidth >= 600)
+	{
+		var div = elem.getElementsByTagName('div')[0];
+		div.style.backgroundColor = "rgba(191,186,186,0.7)";
+		div.style.backgroundImage = "url('/wp-content/themes/" + themeName + "/assets/btn-plus-black.png')";
+		div.style.backgroundSize = "auto auto";
+		div.style.backgroundPosition = "100% 100%";
+		elem.getElementsByTagName('h6')[0].style.display = 'none';
+	}
 }

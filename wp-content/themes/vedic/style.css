@@ -449,6 +449,13 @@ footer p
 	background-color: #CB0D0D;
 	color: #FFFFFF;
 }
+.blood-border
+{
+	background-color: #CB0D0D;
+	border: none;
+	height: 3px;
+	margin: 0px;
+}
 #documentation
 {
 	display: block;
@@ -824,7 +831,10 @@ footer p
 		height: 83px;
 		padding-top: 40px;
 		width: 123px;
-
+	}
+	#documentation > .doc-wrapper .doc-box > img
+	{
+		height: 145px;
 	}
 }
 @media (max-width: 986px) {
@@ -895,7 +905,12 @@ footer p
 		height: 63px;
 		padding-top: 30px;
 		width: 95px;
-
+	}
+	#documentation > .doc-wrapper .doc-box > h6
+	{
+		height: 25px;
+		overflow: hidden;
+		width: 80%;
 	}
 }
 @media (max-width: 750px) {
@@ -928,6 +943,15 @@ footer p
 		padding-top: 12px;
 		width: 55px;
 	}
+	#documentation > .doc-wrapper .doc-box > img
+	{
+		height: 110px;
+	}
+	#documentation > .doc-wrapper .doc-box > h6
+	{
+		font-size: 12px;
+		top: 40%;
+	}
 }
 @media (max-width: 600px) {
 	footer > ul > li
@@ -953,6 +977,31 @@ footer p
 		margin-bottom: 10px;
 		padding: 0px 3%;
 		width: 90%;
+	}
+	#documentation > .doc-wrapper .doc-box
+	{
+		width: 100%;
+	}
+	#documentation > .doc-wrapper .doc-box > img
+	{
+		display: block;
+		height: 243px;
+	}
+	#documentation > .doc-wrapper .doc-box > h6
+	{
+		display: block;
+		font-size: 16px;
+		overflow: hidden;
+		top: 45%;
+		white-space: nowrap;
+		width: 80%;
+	}
+	#documentation > .doc-wrapper .doc-box > .doc-overlay
+	{
+		background-color: rgba(0,0,0,0);
+		background-image: url('assets/btn-plus-white-and-title-bar.png');
+		background-size: 100% 100%;
+		background-position: 0% 0%;
 	}
 }
 @media (max-width: 474px) {
@@ -991,6 +1040,16 @@ footer p
 		float: left;
 		padding-top: 20px;
 		width: 20%;
+	}
+	#documentation > .doc-wrapper .doc-box > h6
+	{
+		display: block;
+		font-size: 16px;
+		height: 30px;
+		overflow: hidden;
+		top: 45%;
+		white-space: normal;
+		width: 75%;
 	}
 }
 @media (max-width: 394px) {
